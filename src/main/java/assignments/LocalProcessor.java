@@ -15,11 +15,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class LocalProcessor {
-    private String processorName = "";
+    private String processorName;
     private Long period = 10_000_000_000_000L;;
-    protected String processorVersion = "";
+    protected String processorVersion;
     private Integer valueOfCheap = 0;
-    private Scanner informationscanner;
+    Scanner informationscanner;
     static List<String> stringArrayList = new LinkedList<>();
 
     public LocalProcessor(String processorName, Long period, String processorVersion, Integer valueOfCheap,
