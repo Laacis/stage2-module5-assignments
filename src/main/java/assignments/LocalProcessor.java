@@ -35,10 +35,8 @@ public class LocalProcessor {
     public LocalProcessor() {
     }
 
-
     @ListIteratorAnnotation
     public void listIterator(LinkedList<String> stringList) {
-        stringArrayList = stringList;
         for (String word : stringList){
             System.out.println(word.hashCode());
         }
