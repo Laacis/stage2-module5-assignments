@@ -34,6 +34,10 @@ public class LocalProcessor {
     public LocalProcessor() {
     }
 
+    public Scanner getInformationscanner() {
+        return informationscanner;
+    }
+
     @ListIteratorAnnotation
     public void listiterator(LinkedList<String> stringList) {
         stringArrayList = new LinkedList<>(stringList);
